@@ -1,0 +1,23 @@
+:root{--fundo:#0b0d12;--card:#141821;--texto:#e9ecf2;--suave:#a6adbb;--ambar:#f2a93b;--borda:#262c38}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:17px/1.65 "Montserrat",system-ui,sans-serif}
+a{color:var(--ambar)}
+.topo{display:flex;justify-content:space-between;align-items:center;max-width:960px;margin:0 auto;padding:20px 16px}
+.topo b{letter-spacing:.08em}
+.topo nav a{margin-left:18px;color:var(--suave);text-decoration:none;font-size:15px}
+main{max-width:960px;margin:0 auto;padding:0 16px 64px}
+.heroi{padding:56px 0 32px}
+.heroi small{color:var(--ambar);letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+h1{font-family:"Bebas Neue",sans-serif;font-weight:400;font-size:clamp(44px,8vw,78px);line-height:1;margin:12px 0 18px;letter-spacing:.02em}
+h2{margin-top:40px}
+.heroi p{color:var(--suave);max-width:640px;font-size:19px}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:28px}
+.card{background:var(--card);border:1px solid var(--borda);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--suave);font-size:15px}
+.redes{color:var(--suave)}
+.doc{max-width:760px}
+.doc h1{font-size:clamp(38px,6vw,56px)}
+.doc li{margin:6px 0}
+footer{border-top:1px solid var(--borda);color:var(--suave);font-size:14px;text-align:center;padding:24px 16px}
+code{background:var(--card);padding:2px 6px;border-radius:6px;word-break:break-all}
